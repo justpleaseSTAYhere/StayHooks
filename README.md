@@ -35,7 +35,7 @@ The client authenticates against your StayHere server using a room owner/admin J
 ## Quickstart
 
 ```python
-from stayhere_webhooks import StayHereWebhookClient
+from stayhooks import StayHereWebhookClient
 
 client = StayHereWebhookClient(
     base_url="http://localhost:3000",
